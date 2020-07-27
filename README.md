@@ -8,13 +8,13 @@
 * Built client facing API using flask
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deplyed api.
 ## Code and Resources Used
-**Python version:** 3.7
-**Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask
-**Feature Selection Article:**[link text itself]: https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd
-**Flask API Production:**[link text itself]: https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s
-**XGBoost & LGBM Algorithms:**[link text itself]: https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
-**Decision Tree:**[link text itself]: https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/2/
-**Random Forest:**[link text itself]: https://www.youtube.com/watch?v=nxFG5xdpDto&t=172s
+**Python version:** 3.7<br>
+**Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask <br>
+**Feature Selection Article:**[link text itself]: https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd <br>
+**Flask API Production:**[link text itself]: https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s <br>
+**XGBoost & LGBM Algorithms:**[link text itself]: https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/ <br>
+**Decision Tree:**[link text itself]: https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/2/ <br>
+**Random Forest:**[link text itself]: https://www.youtube.com/watch?v=nxFG5xdpDto&t=172s <br>
 ## Data Cleaning
 The first step after getting data from Kaggle competition. I needed to clean it up so that it can be useable for model. I did following changes in data.
 * Impute missing categorical values with None (according to data description) and by grouping and taking mode.
@@ -35,7 +35,7 @@ I compared some features and their effects on each other. I checked how some imp
 12. What is the quality percentage of houses.
 13. Are the sales increasing over year or not.
 14. Yearly Sold houses condition.
-15. House prices wrt garage condition.
+15. House prices wrt garage condition.<br>
 **Some visualizations are:**
 ![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag vs prices.png"Logo Title Text 1")
 ![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/house quality.png"Logo Title Text 1")
