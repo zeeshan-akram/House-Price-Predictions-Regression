@@ -21,14 +21,8 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 * Handled numerical null values.
 ## Exploratory Data Analysis
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
-**Some visualizations are:**
-![alt text](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag_vs_prices.png "Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/house quality.png "Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/number of houses in neighbours .png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/old house vs prices.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sales per year.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sold house vs prices.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/yearly sold houses on the basis of house condition.png"Logo Title Text 1")
+**Some visualizations are:**<br>
+![alt text](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag_vs_prices.png)
 I answered to questions given below.
 1. How LotFrontage effecting prices.
 2. Having large LotArea will increase prices.
