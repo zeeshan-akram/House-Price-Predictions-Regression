@@ -22,7 +22,7 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 ## Exploratory Data Analysis
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
 **Some visualizations are:**
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag_vs_prices.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag_vs_prices.png)
 ![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/house quality.png"Logo Title Text 1")
 ![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/number of houses in neighbours .png"Logo Title Text 1")
 ![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/old house vs prices.png"Logo Title Text 1")
