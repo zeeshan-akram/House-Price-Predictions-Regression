@@ -22,7 +22,7 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 ## Exploratory Data Analysis
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
 **Some visualizations are:**<br>
-![alt text](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag-vs-prices.png)
+![alt text](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
 <br>I answered to questions given below.
 1. How LotFrontage effecting prices.
 2. Having large LotArea will increase prices.
