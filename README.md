@@ -6,7 +6,7 @@
 * Perform feature engineering (feature selection with Pearson correlation and wrapper method).
 * Optimized boosting, tree and linear techniques to get best model.
 * Built client facing API using flask
-* Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deplyed api.
+* Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
 ## Code and Resources Used
 **Python version:** 3.7<br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask <br>
@@ -20,7 +20,16 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 * Impute missing categorical values with None (according to data description) and by grouping and taking mode.
 * Handled numerical null values.
 ## Exploratory Data Analysis
-I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. I answered to questions given below.
+I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
+**Some visualizations are:**
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag_vs_prices.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/house quality.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/number of houses in neighbours .png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/old house vs prices.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sales per year.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sold house vs prices.png"Logo Title Text 1")
+![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/yearly sold houses on the basis of house condition.png"Logo Title Text 1")
+I answered to questions given below.
 1. How LotFrontage effecting prices.
 2. Having large LotArea will increase prices.
 3. How prices vary of Houses on the basis of how old it is?
@@ -36,11 +45,3 @@ I compared some features and their effects on each other. I checked how some imp
 13. Are the sales increasing over year or not.
 14. Yearly Sold houses condition.
 15. House prices wrt garage condition.<br>
-**Some visualizations are:**
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/garag vs prices.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/house quality.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/number of houses in neighbours .png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/old house vs prices.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sales per year.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/sold house vs prices.png"Logo Title Text 1")
-![](https://github.com/zeeshan-akram/House-Price-Predictions-Project/yearly sold houses on the basis of house condition.png"Logo Title Text 1")
