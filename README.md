@@ -21,9 +21,15 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 * Handled numerical null values.
 ## Exploratory Data Analysis
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
-**Some visualizations are:**<br>
-![alt text](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
-<br>I answered to questions given below.
+<br>**Some visualizations:**<br>
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/houses-quality.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sales-per-year.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/number-of-houses-in-neighbours.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sold-house-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/old-house-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/yearly-sold-houses-on-the-basis-of-house-condition.png)
+<br>**Find answers of following questions:**
 1. How LotFrontage effecting prices.
 2. Having large LotArea will increase prices.
 3. How prices vary of Houses on the basis of how old it is?
