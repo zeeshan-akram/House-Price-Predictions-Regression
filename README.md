@@ -23,7 +23,7 @@ The first step after getting data from Kaggle competition. I needed to clean it 
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
 <br>**Some visualizations:**<br>
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/houses-quality.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/house-quality.png)
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sales-per-year.png)
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/number-of-houses-in-neighbours.png)
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sold-house-vs-prices.png)
