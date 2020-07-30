@@ -4,7 +4,7 @@
 * Cleaned data by handling missing values of both categorical and numerical features.
 * Perform Exploratory Data Analysis to get know about data.
 * Perform feature engineering (feature selection with Pearson correlation and wrapper method).
-* Optimized boosting, tree and linear techniques to get best model.
+* Optimized ensemble and linear techniques to get best model.
 * Built client facing API using flask.
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
 ## Code and Resources Used
@@ -55,3 +55,17 @@ I perform following operations
 * Removed Outliers.
 * Perform label and One hot encoding.
 * Scale down data with Min Max Scaler.
+## Model Building
+I tried ensemble technique (bagging and boosting) and linear model with K-Fold validation and evaluated them with RMSE. I choose RMSE because of competition demand and also I performed hyperparameter tuning of ensemble models.<br>
+Boosting techniques performing better than all other techniques. So I selected all three boosting models and stacked them to get overall average predictions.<br>
+* **Bagging Models:** Because of training a bunch of individual models in a parallel way. Each model is trained by a random subset of the data 
+* **Boosting MOdels:** Because of training a bunch of individual models in a sequential way. Each individual model learns from mistakes made by the previous model.
+* **Linear Regression:** Just wanted to see how well simple model will perform.
+## Model Performance
+Gradient Boost and XGBoost models outperformed the other models.
+* **Gradient Boost:** RMSE = 0.0329
+* **XGBoost:** RMSE = 0.0329
+* **LGBM :** RMSE = 0.0340
+* **Random Forest:** RMSE = 0.0362
+* **Linear Regression:** RMSE = 0.0395
+## Productionization
