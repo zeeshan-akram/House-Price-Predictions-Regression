@@ -49,9 +49,9 @@ I compared some features and their effects on each other. I checked how some imp
 After EDA I needed to perform feature engineering so that model get clean data. Incorrect or inconsistent data leads to false conclusions. And so, how well we clean and understand the data has a high impact on the quality of the results.<br>
 I perform following operations
 * Check Pearson correlation.
-⋅⋅* Removed correlated predictors to reduce multicolinearity.
-..* Removed features with very low correlation with target variable.
-* Used wrapper method for selecting features which are making impact on model.
+** Removed correlated predictors to reduce multicolinearity.
+** Removed features with very low correlation with target variable.
+* Used wrapper method for selecting features which are only imported to model.
 * Removed Outliers.
 * Perform label and One hot encoding.
 * Scale down data with Min Max Scaler.
