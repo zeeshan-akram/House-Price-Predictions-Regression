@@ -37,8 +37,7 @@ I compared some features and their effects on each other. I checked how some imp
 13. Are the sales increasing over year or not.
 14. Yearly Sold houses condition.
 15. House prices wrt garage condition.<br>
-..
-<br>**Some visualizations:**<br>
+<h5>Some visualizations:<h5>
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/house-quality.png)
 ![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sales-per-year.png)
