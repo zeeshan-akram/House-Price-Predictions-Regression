@@ -10,7 +10,7 @@
 ## Code and Resources Used
 **Python version:** 3.7<br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask <br>
-**Feature Selection Article:**[link text itself]: https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd <br>
+**Feature Selection Article:**[link text itself]: (https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd) <br>
 **Flask API Production:**[link text itself]: https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s <br>
 **XGBoost & LGBM Algorithms:**[link text itself]: https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/ <br>
 **Decision Tree:**[link text itself]: https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/2/ <br>
