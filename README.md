@@ -59,8 +59,8 @@ I perform following operations
 I tried ensemble technique (bagging and boosting) and linear model with K-Fold validation and evaluated them with RMSE. I choose RMSE because of competition demand and also I performed hyperparameter tuning of ensemble models.<br>
 Boosting techniques performing better than all other techniques. So I selected all three boosting models and stacked them to get overall average predictions.<br>
 * **Bagging Models:** Because of training a bunch of individual models in a parallel way. Each model is trained by a random subset of the data 
-* **Boosting MOdels:** Because of training a bunch of individual models in a sequential way. Each individual model learns from mistakes made by the previous model.
-* **Linear Regression:** Just wanted to see how well simple model will perform.
+* **Boosting Models:** Because of training a bunch of individual models in a sequential way. Each individual model learns from mistakes made by the previous model.
+* **Linear Regression:** Baseline Model.
 ## Model Performance
 Gradient Boost and XGBoost models outperformed the other models.
 * **Gradient Boost:** RMSE = 0.0329
