@@ -21,14 +21,6 @@ The first thing i did after getting data from Kaggle competition is clean it up 
 * Handled numerical null values.
 ## Exploratory Data Analysis
 I compared some features and their effects on each other. I checked how some important features effecting the prices of houses. 
-<br>**Some visualizations:**<br>
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/house-quality.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sales-per-year.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/number-of-houses-in-neighbours.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sold-house-vs-prices.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/old-house-vs-prices.png)
-![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/yearly-sold-houses-on-the-basis-of-house-condition.png)
 <br>**Find answers of following questions:**
 1. How LotFrontage effecting prices.
 2. Having large LotArea will increase prices.
@@ -45,12 +37,21 @@ I compared some features and their effects on each other. I checked how some imp
 13. Are the sales increasing over year or not.
 14. Yearly Sold houses condition.
 15. House prices wrt garage condition.<br>
+..
+<br>**Some visualizations:**<br>
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/garag-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/house-quality.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sales-per-year.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/number-of-houses-in-neighbours.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/sold-house-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/old-house-vs-prices.png)
+![deleted or not found](https://github.com/zeeshan-akram/House-Price-Predictions-Project/blob/master/yearly-sold-houses-on-the-basis-of-house-condition.png)
 ## Feature Engineering
 After EDA I needed to perform feature engineering so that model get clean data. Incorrect or inconsistent data leads to false conclusions. And so, how well we clean and understand the data has a high impact on the quality of the results.<br>
 I perform following operations
 * Check Pearson correlation.
-1. Removed correlated predictors to reduce multicolinearity.
-2. Removed features with very low correlation with target variable.
+  * Removed correlated predictors to reduce multicolinearity.
+  * Removed features with very low correlation with target variable.
 * Used wrapper method for selecting features which are only imported to model.
 * Removed Outliers.
 * Perform label and One hot encoding.
