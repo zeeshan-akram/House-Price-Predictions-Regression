@@ -1,0 +1,150 @@
+{% extends 'base.html'%}
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<h1>Home Page</h1>
+<br>
+<h1>Enter Data</h1>
+<hr>
+<h3> Enter Numerical Information: </h3>
+<hr>
+<form action="/predict" method="POST">
+    LotFrontage: <input type="number" name='LotFrontage' id='LotFrontage' required placeholder="In squar feet">
+    &nbsp
+    LotArea: <input type="number" name='LotArea' id='LotArea' required placeholder="In squar feet">
+    &nbsp
+    YearBuilt: <input type='number' name='YearBuilt' id='YearBuilt' required placeholder="Enter Year">
+    <br>
+    <br>
+    Remodel date: <input type="number" name="YearRemodAdd" id='YearRemodAdd' required placeholder="Enter Year">
+    &nbsp
+    Type 1 finished : <input type="number" name="BsmtFinSF1" id='BsmtFinSF1' required placeholder="In squar feet">
+    <br>
+    <br>
+    Total basement area: <input type="number" name="TotalBsmtSF" id='TotalBsmtSF' required placeholder="In squar feet">
+    &nbsp
+    Above ground living area : <input type="number" name="GrLivArea" id='GrLivArea' required placeholder="In squar feet">
+    <br>
+    <br>
+    Bathrooms above grade: <input type="number" name="FullBath" id="FullBath" required placeholder="Enter Amount" >
+    &nbsp
+    Fireplaces: <input type='number' name='Fireplaces' id='Fireplaces' required placeholder="Enter Amount">
+    <br>
+    <br>
+    GarageCars: <input type="number" name="GarageCars" id="GarageCars" required placeholder="Enter Amount">
+    <br>
+    <br>
+    <hr>
+    <h3> Enter Categorical Information: </h3>
+    <hr>
+    Neighborhood: <select id="Neighborhood" name="Neighborhood">
+        <option value="CollgCr">CollgCr</option>
+        <option value="Veenker">Veenker</option>
+        <option value="Crawfor">Crawfor</option>
+        <option value="NoRidge">NoRidge</option>
+        <option value="Mitchel">Mitchel</option>
+        <option value="Somerst">Somerst</option>
+        <option value="NWAmes">NWAmes</option>
+        <option value="OldTown">OldTown</option>
+        <option value="BrkSide">BrkSide</option>
+        <option value="Sawyer">Sawyer</option>
+        <option value="NridgHt">NridgHt</option>
+        <option value="NAmes">NAmes</option>
+        <option value="SawyerW">SawyerW</option>
+        <option value="IDOTRR">IDOTRR</option>
+        <option value="MeadowV">MeadowV</option>
+        <option value="Edwards">Edwards</option>
+        <option value="Timber">Timber</option>
+        <option value="Gilbert">Gilbert</option>
+        <option value="StoneBr">StoneBr</option>
+        <option value="ClearCr">ClearCr</option>
+        <option value="NPkVill">NPkVill</option>
+        <option value="Blmngtn">Blmngtn</option>
+        <option value="BrDale">BrDale</option>
+        <option value="SWISU">SWISU</option>
+        <option value="Blueste">Blueste</option>
+    </select>
+    &nbsp
+    &nbsp
+    HouseStyle: <select id="HouseStyle" name="HouseStyle">
+        <option value="2Story">2Story</option>
+        <option value="1Story">1Story</option>
+        <option value="1.5Fin">1.5Fin</option>
+        <option value="1.5Unf">1.5Unf</option>
+        <option value="SFoyer">SFoyer</option>
+        <option value="SLvl">SLvl</option>
+        <option value="2.5Unf">2.5Unf</option>
+        <option value="2.5Fin">2.5Fin</option>
+    </select>
+    &nbsp
+    &nbsp
+    OverallQual: <select id="OverallQual" name="OverallQual"> 
+        <option value=10>Very Excellent</option>
+        <option value=9>Excellent</option>
+        <option value=8>Very Good</option>
+        <option value=7>Good</option>
+        <option value=6>Above Average</option>
+        <option value=5>Average</option>
+        <option value=4>Below Average</option>
+        <option value=3>Fair</option>
+        <option value=2>Poor</option>
+        <option value=1>Very Poor</option>
+    </select>
+    &nbsp
+    &nbsp
+    RoofStyle: <select id="RoofStyle" name="RoofStyle">
+        <option value="Gable">Gable</option>
+        <option value="Hip">Hip</option>
+        <option value="Gambrel">Gambrel</option>
+        <option value="Mansard">Mansard</option>
+        <option value="Flat">Flat</option>
+        <option value="Shed">Shed</option>
+    </select>
+    <br>
+    <br>
+    ExterQual: <select id="ExterQual" name="ExterQual">
+        <option value=0>Excellent</option>
+        <option value=2>Good</option>
+        <option value=3>Average/Typical</option>
+        <option value=1>Fair</option>
+        <option value=4>Poor</option>
+    </select>
+    &nbsp
+    &nbsp
+    BsmtQual: <select id="BsmtQual" name="BsmtQual">
+        <option value=0>Excellent</option>
+        <option value=2>Good</option>
+        <option value=4>Typical</option>
+        <option value=1>Fair</option>
+        <option value=5>Poor</option>
+        <option value=3>No Basement</option>
+    </select>
+    &nbsp
+    &nbsp
+    KitchenQual: <select id="KitchenQual" name="KitchenQual">
+        <option value=1>Fair</option>
+        <option value=0>Excellent</option>
+        <option value=2>Good</option>
+        <option value=3>Typical</option>
+    </select>
+    &nbsp
+    &nbsp
+    GarageQual: <select id="GarageQual" name="GarageQual">
+        <option value=0>Excellent</option>
+        <option value=2>Good</option>
+        <option value=5>Typical</option>
+        <option value=1>Fair</option>
+        <option value=4>Poor</option>
+        <option value=3>No Garage</option>
+    </select>
+    <br>
+    <br>
+    <hr>
+    <h3>Prediction</h3>
+    <hr>
+    <br>
+    <input type="submit" value="Predict">
+</form>
+{% endblock %}
