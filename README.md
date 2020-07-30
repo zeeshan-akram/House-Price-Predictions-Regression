@@ -5,18 +5,18 @@
 * Perform Exploratory Data Analysis to get know about data.
 * Perform feature engineering (feature selection with Pearson correlation and wrapper method).
 * Optimized boosting, tree and linear techniques to get best model.
-* Built client facing API using flask
+* Built client facing API using flask.
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
 ## Code and Resources Used
 **Python version:** 3.7<br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask <br>
-**Feature Selection Article:**[link text itself]: (https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd) <br>
-**Flask API Production:**[link text itself]: https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s <br>
-**XGBoost & LGBM Algorithms:**[link text itself]: https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/ <br>
-**Decision Tree:**[link text itself]: https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/2/ <br>
-**Random Forest:**[link text itself]: https://www.youtube.com/watch?v=nxFG5xdpDto&t=172s <br>
+**Feature Selection Article:** https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd <br>
+**Flask API Production:** https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s <br>
+**XGBoost & LGBM Algorithms:** https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/ <br>
+**Decision Tree:** https://www.analyticsvidhya.com/blog/2015/01/decision-tree-simplified/2/ <br>
+**Random Forest:** https://www.youtube.com/watch?v=nxFG5xdpDto&t=172s <br>
 ## Data Cleaning
-The first step after getting data from Kaggle competition. I needed to clean it up so that it can be useable for model. I did following changes in data.
+The first thing i did after getting data from Kaggle competition is clean it up so that I can perform EDA and later useable for model. I did following changes in data.
 * Impute missing categorical values with None (according to data description) and by grouping and taking mode.
 * Handled numerical null values.
 ## Exploratory Data Analysis
@@ -45,3 +45,13 @@ I compared some features and their effects on each other. I checked how some imp
 13. Are the sales increasing over year or not.
 14. Yearly Sold houses condition.
 15. House prices wrt garage condition.<br>
+## Feature Engineering
+After EDA I needed to perform feature engineering so that model get clean data. Incorrect or inconsistent data leads to false conclusions. And so, how well we clean and understand the data has a high impact on the quality of the results.<br>
+I perform following operations
+* Check Pearson correlation.
+⋅⋅* Removed correlated predictors to reduce multicolinearity.
+..* Removed features with very low correlation with target variable.
+* Used wrapper method for selecting features which are making impact on model.
+* Removed Outliers.
+* Perform label and One hot encoding.
+* Scale down data with Min Max Scaler.
