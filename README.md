@@ -70,4 +70,4 @@ Gradient Boost and XGBoost models outperformed the other models.
 * **Linear Regression:** RMSE = 0.0395
 ## Productionization
 In this step I built a flask API endpoint. The API endpoint takes list of values of different house features and return estimated price of house.<br>
-Finaly I deployed flask API to **Heroku**. Heroku is a platform as a service(PaaS) that enables developers to build, run, and operate applications entirely in the cloud. You can check deployed API given in project overview section above.
+Finaly I deployed flask API to **Heroku**. Heroku is a platform as a service(PaaS) that enables developers to build, run, and operate applications entirely in the cloud. You can check deployed API. Link in project overview section above.
