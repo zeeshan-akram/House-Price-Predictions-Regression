@@ -51,7 +51,7 @@ I perform following operations
 * Check Pearson correlation.
   * Removed correlated predictors to reduce multicolinearity.
   * Removed features with very low correlation with target variable.
-* Used wrapper method for selecting features which are only imported to model.
+* Used wrapper method for selecting features which are only important to model.
 * Removed Outliers.
 * Perform label and One hot encoding.
 * Scale down data with Min Max Scaler.
