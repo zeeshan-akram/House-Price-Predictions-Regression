@@ -5,6 +5,7 @@
 * Perform Exploratory Data Analysis to get know about data.
 * Perform feature engineering (feature selection with Pearson correlation and wrapper method).
 * Optimized ensemble and linear techniques to get best model.
+* Tried deep learning Artificial Neural Network.
 * Built client facing API using flask.
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
 ## Code and Resources Used
