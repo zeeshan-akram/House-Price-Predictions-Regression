@@ -10,7 +10,7 @@
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
 ## Code and Resources Used
 **Python version:** 3.7<br>
-**Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask <br>
+**Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask, keras. <br>
 **Feature Selection Article:** https://medium.com/analytics-vidhya/feature-selection-techniques-2614b3b7efcd <br>
 **Flask API Production:** https://www.youtube.com/watch?v=3mwFC4SHY-Y&t=43s <br>
 **XGBoost & LGBM Algorithms:** https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/ <br>
@@ -52,6 +52,7 @@ I perform following operations
 * Check Pearson correlation.
   * Removed correlated predictors to reduce multicolinearity.
   * Removed features with very low correlation with target variable.
+* Also prepare data for neural networks.
 * Used wrapper method for selecting features which are only important to model.
 * Removed Outliers.
 * Perform label and One hot encoding.
