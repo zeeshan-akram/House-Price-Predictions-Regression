@@ -7,8 +7,8 @@
 * Optimized ensemble and linear techniques to get best model.
 * Tried deep learning Artificial Neural Network.
 * Built client facing API using flask.
-* Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
-* Deployed flask API to Microsoft Azure. [click here](https://housepricepredictions.azurewebsites.net/).
+* Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed API.
+* Deployed flask API to Microsoft Azure. [click here](https://housepricepredictions.azurewebsites.net/) to check deployed API.
 ## Code and Resources Used
 **Python version:** 3.7<br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask, keras. <br>
