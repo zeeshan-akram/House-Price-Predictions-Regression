@@ -8,6 +8,7 @@
 * Tried deep learning Artificial Neural Network.
 * Built client facing API using flask.
 * Deployed flask API to Heroku. [Click here](https://predict-your-house-price.herokuapp.com/) to check deployed api.
+* Deployed flask API to Microsoft Azure. [click here](https://housepricepredictions.azurewebsites.net/).
 ## Code and Resources Used
 **Python version:** 3.7<br>
 **Packages:** numpy, pandas, seaborn, matplotlib, sklearn, boruta_py, lightgbm, xgboost, pickle, flask, keras. <br>
@@ -73,4 +74,6 @@ Gradient Boost and XGBoost models outperformed the other models.
 * **ANN Result:** Validate RMSE = 0.0538
 ## Productionization
 In this step I built a flask API endpoint. The API endpoint takes list of values of different house features and return estimated price of house.<br>
-Finaly I deployed flask API to **Heroku**. Heroku is a platform as a service(PaaS) that enables developers to build, run, and operate applications entirely in the cloud. You can check deployed API. Link in project overview section above.
+Finaly I deployed flask API to **Heroku** and **Microsoft Azure**.<br>
+**Heroku:** https://predict-your-house-price.herokuapp.com/ <br>
+**MS Azure:** https://housepricepredictions.azurewebsites.net/ <br>
